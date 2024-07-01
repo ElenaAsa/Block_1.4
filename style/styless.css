@@ -36,9 +36,6 @@ body {
 }
 
 
-
-
-
 .button-circle--cloose:hover{
     box-shadow: 0 0 5px 0 rgb(173, 10, 10);
 	transform: scale(1.2);
@@ -50,10 +47,6 @@ body {
     box-shadow: 0 0 5px 0 rgb(173, 10, 10);
 	transform: scale(1.2);
 }
-
-
-
-
 
 .button-circle{
     width: 40px;
@@ -108,18 +101,12 @@ body {
     padding: 18px 24px 0 24px;
   }
 
-.menu-header{
-   
+.menu-header{ 
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 16.73px;  
- 
 }
-
-
-
-
 
 .menu-nav{
     flex-grow: 1;
@@ -132,10 +119,8 @@ body {
     display: flex;
     flex-direction: column;
     list-style: none;
-   
-   
- 
 }
+
 .nav__list {
     list-style: none;
     padding: 0;
