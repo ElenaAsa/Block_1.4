@@ -73,13 +73,19 @@ body {
   }
 
 
-  .mobil-menu{ 
-   width: 320px;
-   min-height: 100%;
-   box-shadow: 16px 0 52px -10px #0E185033;
-   margin: 0;
- 
-  }
+
+    .mobil-menu{ 
+
+        width: 320px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: fixed;
+        overflow: hidden;
+        box-shadow: 16px 0 52px -10px #0E185033;
+       }
+
 
 
   .header {
@@ -96,13 +102,11 @@ body {
 }
 
 .menu-nav{
-    min-height: 100vh;
+    display: flex;
     flex-grow: 1;
     padding-top: 30px;
     padding-left: 24px;
 }
-
- 
 
 
 .nav {
@@ -207,8 +211,7 @@ body {
     flex-direction: row;
     list-style: none;
     padding-left: 24px;
-    padding-top: 40px;
-    padding-bottom: 32px;
+   padding-top: 24px;
    
 }
 
